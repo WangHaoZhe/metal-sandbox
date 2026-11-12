@@ -1,0 +1,10 @@
+agent:
+  step_limit: 0
+  cost_limit: 1000
+environment:
+  timeout: 600
+model:
+  model_kwargs:
+    api_base: https://your-model-service.example
+    max_tokens: 8192
+    timeout: 1800

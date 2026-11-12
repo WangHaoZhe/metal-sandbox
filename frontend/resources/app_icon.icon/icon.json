@@ -1,0 +1,124 @@
+{
+  "fill-specializations": [
+    {
+      "value": {
+        "solid": "srgb:1.00000,1.00000,1.00000,1.00000"
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "solid": "srgb:0.07000,0.09000,0.14000,1.00000"
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "stack_03_front",
+      "layers": [
+        {
+          "name": "stack_03_front",
+          "image-name": "stack_03_front.svg",
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.05000,0.55000,1.00000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.27000,0.68000,1.00000,1.00000"
+              }
+            }
+          ],
+          "glass": true
+        }
+      ],
+      "lighting": "individual",
+      "specular": true,
+      "blur-material": 0.3,
+      "translucency": {
+        "enabled": true,
+        "value": 0.35
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      }
+    },
+    {
+      "name": "stack_02_middle",
+      "layers": [
+        {
+          "name": "stack_02_middle",
+          "image-name": "stack_02_middle.svg",
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.03000,0.43000,0.97000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.11000,0.52000,1.00000,1.00000"
+              }
+            }
+          ],
+          "glass": true
+        }
+      ],
+      "lighting": "individual",
+      "specular": true,
+      "blur-material": 0.3,
+      "translucency": {
+        "enabled": true,
+        "value": 0.35
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      }
+    },
+    {
+      "name": "stack_01_back",
+      "layers": [
+        {
+          "name": "stack_01_back",
+          "image-name": "stack_01_back.svg",
+          "fill-specializations": [
+            {
+              "value": {
+                "solid": "srgb:0.03000,0.32000,0.83000,1.00000"
+              }
+            },
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "srgb:0.08000,0.37000,0.85000,1.00000"
+              }
+            }
+          ],
+          "glass": true
+        }
+      ],
+      "lighting": "individual",
+      "specular": true,
+      "blur-material": 0.3,
+      "translucency": {
+        "enabled": true,
+        "value": 0.35
+      },
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}

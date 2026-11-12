@@ -1,0 +1,10 @@
+model = "gpt-6-astra"
+model_provider = "api"
+web_search = "disabled"
+
+[model_providers.api]
+name = "api"
+base_url = "https://your-model-service.example/v1"
+wire_api = "responses"
+env_key = "OPENAI_API_KEY"
+supports_websockets = false
